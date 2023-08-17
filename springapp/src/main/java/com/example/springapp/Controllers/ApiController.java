@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyDay1App {
 	@GetMapping("/welcome")
-	public String display()
+	public String Welcome()
 	{
 		return "Welcome";
 	}
